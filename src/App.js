@@ -1,9 +1,11 @@
 import './App.css';
+import Countdown from './Countdown'
 
 function App() {
   return (
     <div className='App'>
-      <h1>Test Test</h1>
+      <h1>Happy Halloween</h1>
+      <Countdown />
     </div>
   );
 }
