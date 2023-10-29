@@ -34,7 +34,12 @@ function CountdownComponent() {
     <div>
         <h1>Countdown to Tricking or Treat</h1>
             <div className="timer">
-            <div>{countdown.days} days,{countdown.hours} hours, {countdown.minutes} minutes, {countdown.seconds} seconds</div>
+            <div>
+                <span className="circle">{countdown.days} days</span>
+                <span className="circle">{countdown.hours} hours</span>
+                <span className="circle">{countdown.minutes} minutes</span>
+                <span className="circle">{countdown.seconds} seconds</span>
+            </div>
             </div>
     </div>
   );
